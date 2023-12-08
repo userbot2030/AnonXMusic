@@ -14,12 +14,12 @@
     "env": {
       "API_ID": {
         "description": "Get this value from https://my.telegram.org",
-        "value": "29521830",
+        "value": "26778445",
         "required": true
       },
       "API_HASH": {
         "description": "Get this value from https://my.telegram.org",
-        "value": "04f513b0f94db11f0cf95d7decb41e45",
+        "value": "02fa3772a2caffdab8482a75c8013003",
         "required": true
       },
       "BOT_TOKEN": {
@@ -29,7 +29,7 @@
       },
       "MONGO_DB_URI": {
         "description": "Get a mongodb url from https://cloud.mongodb.com.",
-        "value": "mongodb+srv://Adira:1234@cluster0.8fn2gbk.mongodb.net/?retryWrites=true&w=majority",
+        "value": "mongodb+srv://Lisa:1234@cluster0.kgicac6.mongodb.net/?retryWrites=true&w=majority",
         "required": true
       },
       "OWNER_ID": {
