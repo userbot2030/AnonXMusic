@@ -78,21 +78,21 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://graph.org/file/9de20e410aa63f87ee679.jpg"
+    "START_IMG_URL", "https://graph.org/file/2f3417eb53d48208cb41b.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://graph.org/file/9de20e410aa63f87ee679.jpg"
+    "PING_IMG_URL", "https://graph.org/file/2f3417eb53d48208cb41b.jpg"
 )
-PLAYLIST_IMG_URL = "https://graph.org/file/9de20e410aa63f87ee679.jpg"
-STATS_IMG_URL = "https://graph.org/file/9de20e410aa63f87ee679.jpg"
-TELEGRAM_AUDIO_URL = "https://graph.org/file/9de20e410aa63f87ee679.jpg"
-TELEGRAM_VIDEO_URL = "https://graph.org/file/9de20e410aa63f87ee679.jpg"
-STREAM_IMG_URL = "https://graph.org/file/9de20e410aa63f87ee679.jpg"
-SOUNCLOUD_IMG_URL = "https://graph.org/file/9de20e410aa63f87ee679.jpg"
-YOUTUBE_IMG_URL = "https://graph.org/file/9de20e410aa63f87ee679.jpg"
-SPOTIFY_ARTIST_IMG_URL = "https://graph.org/file/9de20e410aa63f87ee679.jpg"
-SPOTIFY_ALBUM_IMG_URL = "https://graph.org/file/9de20e410aa63f87ee679.jpg"
-SPOTIFY_PLAYLIST_IMG_URL = "https://graph.org/file/9de20e410aa63f87ee679.jpg"
+PLAYLIST_IMG_URL = "https://graph.org/file/2f3417eb53d48208cb41b.jpg"
+STATS_IMG_URL = "https://graph.org/file/2f3417eb53d48208cb41b.jpg"
+TELEGRAM_AUDIO_URL = "https://graph.org/file/2f3417eb53d48208cb41b.jpg"
+TELEGRAM_VIDEO_URL = "https://graph.org/file/2f3417eb53d48208cb41b.jpg"
+STREAM_IMG_URL = "https://graph.org/file/2f3417eb53d48208cb41b.jpg"
+SOUNCLOUD_IMG_URL = "https://graph.org/file/2f3417eb53d48208cb41b.jpg"
+YOUTUBE_IMG_URL = "https://graph.org/file/2f3417eb53d48208cb41b.jpg"
+SPOTIFY_ARTIST_IMG_URL = "https://graph.org/file/2f3417eb53d48208cb41b.jpg"
+SPOTIFY_ALBUM_IMG_URL = "https://graph.org/file/2f3417eb53d48208cb41b.jpg"
+SPOTIFY_PLAYLIST_IMG_URL = "https://graph.org/file/2f3417eb53d48208cb41b.jpg"
 
 
 def time_to_seconds(time):
