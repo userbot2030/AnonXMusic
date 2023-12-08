@@ -1,7 +1,7 @@
 {
-    "name": "ʙᴇʀʟɪɴ ダ ᴍᴜsɪᴄ",
+    "name": "ᴀᴅɪʀᴀ ダ ᴍᴜsɪᴄ",
     "description": "A Telegram Music Player Bot, written in Python with Pyrogram and Py-Tgcalls.",
-    "logo": "https://graph.org/file/9de20e410aa63f87ee679.jpg",
+    "logo": "https://graph.org/file/2f3417eb53d48208cb41b.jpg",
     "keywords": [
     "python3",
     "telegram",
@@ -14,27 +14,27 @@
     "env": {
       "API_ID": {
         "description": "Get this value from https://my.telegram.org",
-        "value": "20853844",
+        "value": "29521830",
         "required": true
       },
       "API_HASH": {
         "description": "Get this value from https://my.telegram.org",
-        "value": "89d9b3e7e048c8ccc307659d057ab532",
+        "value": "04f513b0f94db11f0cf95d7decb41e45",
         "required": true
       },
       "BOT_TOKEN": {
         "description": "A Bot's token from Botfather",
-        "value": "6745729088:AAF7CAgo0mjB-fJLTel87CdfemblGEV9ZLI",
+        "value": "6035193316:AAH0lEDdveHSt8gptSNLa8N3Y2n_9xdWN2Q",
         "required": true
       },
       "MONGO_DB_URI": {
         "description": "Get a mongodb url from https://cloud.mongodb.com.",
-        "value": "mongodb+srv://Selvia:1234@cluster0.e1immmg.mongodb.net/?retryWrites=true&w=majority",
+        "value": "mongodb+srv://Adira:1234@cluster0.8fn2gbk.mongodb.net/?retryWrites=true&w=majority",
         "required": true
       },
       "OWNER_ID": {
         "description": "The user id of user whom you would like to add as OWNER.",
-        "value": "6851974966",
+        "value": "1825139822",
         "required": true
       },
       "STRING_SESSION": {
