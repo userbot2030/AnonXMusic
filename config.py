@@ -39,7 +39,7 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Midnightsexual")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/+rZdBKCGw2Hk0MGI1")
 SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/Berlinmusic_support")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
@@ -52,7 +52,7 @@ SPOTIFY_CLIENT_SECRET = getenv("SPOTIFY_CLIENT_SECRET", None)
 
 
 # Maximum limit for fetching playlist's track from youtube, spotify, apple links.
-PLAYLIST_FETCH_LIMIT = int(getenv("PLAYLIST_FETCH_LIMIT", 25))
+PLAYLIST_FETCH_LIMIT = int(getenv("PLAYLIST_FETCH_LIMIT", 00))
 
 
 # Telegram audio and video file size limit (in bytes)
@@ -85,12 +85,12 @@ PING_IMG_URL = getenv(
 )
 PLAYLIST_IMG_URL = "https://graph.org/file/c535cd1372d231dcbcbf8.jpg"
 STATS_IMG_URL = "https://graph.org/file/cdda60a7389271f28538b.jpg"
-TELEGRAM_AUDIO_URL = "https://graph.org/file/c535cd1372d231dcbcbf8.jpg"
-TELEGRAM_VIDEO_URL = "https://graph.org/file/cdda60a7389271f28538b.jpg"
-STREAM_IMG_URL = "https://graph.org/file/c535cd1372d231dcbcbf8.jpg"
-SOUNCLOUD_IMG_URL = "https://graph.org/file/2f3417eb53d48208cb41b.jpg"
-YOUTUBE_IMG_URL = "https://graph.org/file/c535cd1372d231dcbcbf8.jpg"
-SPOTIFY_ARTIST_IMG_URL = "https://graph.org/file/cdda60a7389271f28538b.jpg"
+TELEGRAM_AUDIO_URL = ""
+TELEGRAM_VIDEO_URL = ""
+STREAM_IMG_URL = ""
+SOUNCLOUD_IMG_URL = ""
+YOUTUBE_IMG_URL = ""
+SPOTIFY_ARTIST_IMG_URL = ""
 SPOTIFY_ALBUM_IMG_URL = "https://graph.org/file/c535cd1372d231dcbcbf8.jpg"
 SPOTIFY_PLAYLIST_IMG_URL = "https://graph.org/file/cdda60a7389271f28538b.jpg"
 
