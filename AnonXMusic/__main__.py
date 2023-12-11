@@ -43,7 +43,7 @@ async def init():
         await Anony.stream_call("https://te.legra.ph/file/29f784eb49d230ab62e9e.mp4")
     except NoActiveGroupCall:
         LOGGER("BerlinXMusic").error(
-            "Please turn on the videochat of your log group\channel.\n\nStopping Bot..."
+            " Mau Gw idupin ga nih botnya, Nyalain Monyet Os Nya.\n\nStopping Bot..."
         )
         exit()
     except:
@@ -55,7 +55,7 @@ async def init():
     await idle()
     await app.stop()
     await userbot.stop()
-    LOGGER("BerlinXMusic").info("Stopping Berlinx Music Bot...")
+    LOGGER("BerlinXMusic").info("Stopping Berlin x Music Bot...")
 
 
 if __name__ == "__main__":
