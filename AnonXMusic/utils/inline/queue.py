@@ -69,8 +69,5 @@ def aq_markup(_, chat_id):
             InlineKeyboardButton(text="OWNER", user_id=f"OWNER_ID"),
             InlineKeyboardButton(text="FOUNDER", url=f"https://t.me/midnightsexual"),
         ],
-        [
-            InlineKeyboardButton(text="ASUPAN", url=f"https://t.me/Asupan_bokepviral"),
-        ],
     ]
     return buttons
