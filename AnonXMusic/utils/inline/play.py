@@ -58,11 +58,8 @@ def stream_markup_timer(_, chat_id, played, dur):
             InlineKeyboardButton(text="✫ sᴋɪᴘ ✫", callback_data=f"ADMIN Skip|{chat_id}"),
         ],
         [
-            InlineKeyboardButton(
-                callback_data="GetTimer",
-            )
+            InlineKeyboardButton(text= "✫ ASUPAN ✫", url=f"https:://t.me/Asupan_bokepviral")
         ],
-        [InlineKeyboardButton(text= "✫ ASUPAN ✫", url=f"https:://t.me/Asupan_bokepviral")],
     ]
     return buttons
 
@@ -70,13 +67,12 @@ def stream_markup_timer(_, chat_id, played, dur):
 def stream_markup(_, chat_id):
     buttons = [
         [
-            InlineKeyboardButton(text="✫ ᴘᴀᴜsᴇ ✫", callback_data=f"ADMIN Pause|{chat_id}"),
+            InlineKeyboardButton(text="✫ sᴛᴏᴘ ✫", callback_data=f"ADMIN Stop|{chat_id}"),
             InlineKeyboardButton(text="✫ sᴋɪᴘ ✫", callback_data=f"ADMIN Skip|{chat_id}"),
         ],
         [
-            InlineKeyboardButton(text="✫ sᴛᴏᴘ ✫", callback_data=f"ADMIN Stop|{chat_id}"),
+            InlineKeyboardButton(text= "✫ ASUPAN ✫", url=f"https:://t.me/Asupan_bokepviral")
         ],
-        [InlineKeyboardButton(text= "✫ ASUPAN ✫", url=f"https:://t.me/Asupan_bokepviral")],
     ]
     return buttons
 
