@@ -1,7 +1,7 @@
 {
     "name": "ʙᴇʀʟɪɴ ダ ᴍᴜsɪᴄ",
     "description": "A Telegram Music Player Bot, written in Python with Pyrogram and Py-Tgcalls.",
-    "logo": "https://graph.org/file/cdda60a7389271f28538b.jpg",
+    "logo": "https://graph.org/file/c535cd1372d231dcbcbf8.jpg",
     "keywords": [
     "python3",
     "telegram",
@@ -14,12 +14,12 @@
     "env": {
       "API_ID": {
         "description": "Get this value from https://my.telegram.org",
-        "value": "api id Assistant",
+        "value": "",
         "required": true
       },
       "API_HASH": {
         "description": "Get this value from https://my.telegram.org",
-        "value": "api hash assistant",
+        "value": "",
           
         "required": true
       },
@@ -35,7 +35,7 @@
       },
       "OWNER_ID": {
         "description": "The user id of user whom you would like to add as OWNER.",
-        "value": "6851974966",
+        "value": "",
         "required": true
       },
       "STRING_SESSION": {
@@ -55,7 +55,7 @@
       },
       "LOGGER_ID": {
         "description": "Your Log Group ID, add your bot and promote as an admin with full rights!. Channel ki id mat daal dena bsdk.",
-        "value": "-1002049500040",
+        "value": "",
         "required": true
       }
     },
