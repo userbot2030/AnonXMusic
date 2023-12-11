@@ -6,25 +6,25 @@ answer.extend(
     [
         InlineQueryResultArticle(
             title="Pᴀᴜsᴇ",
-            description=f"ᴩᴀᴜsᴇ ᴛʜᴇ ᴄᴜʀʀᴇɴᴛ ᴩʟᴀʏɪɴɢ sᴛʀᴇᴀᴍ ᴏɴ ᴠɪᴅᴇᴏᴄʜᴀᴛ.",
+            description=f"𝘿𝙖𝙝 𝙜𝙬 𝙟𝙚𝙙𝙖 𝙮𝙖 𝙢𝙚𝙠 𝙨𝙩𝙧𝙚𝙖𝙢 𝙣𝙮𝙖.",
             thumb_url="https://graph.org/file/c535cd1372d231dcbcbf8.jpg",
             input_message_content=InputTextMessageContent("/pause"),
         ),
         InlineQueryResultArticle(
             title="Rᴇsᴜᴍᴇ",
-            description=f"ʀᴇsᴜᴍᴇ ᴛʜᴇ ᴩᴀᴜsᴇᴅ sᴛʀᴇᴀᴍ ᴏɴ ᴠɪᴅᴇᴏᴄʜᴀᴛ.",
+            description=f"𝘿𝙖𝙝 𝙜𝙬 𝙍𝙚𝙨𝙪𝙢𝙚 𝙮𝙖 𝙢𝙚𝙠 𝙨𝙩𝙧𝙚𝙖𝙢 𝙣𝙮𝙖.",
             thumb_url="https://graph.org/file/c535cd1372d231dcbcbf8.jpg",
             input_message_content=InputTextMessageContent("/resume"),
         ),
         InlineQueryResultArticle(
             title="Sᴋɪᴩ",
-            description=f"sᴋɪᴩ ᴛʜᴇ ᴄᴜʀʀᴇɴᴛ ᴩʟᴀʏɪɴɢ sᴛʀᴇᴀᴍ ᴏɴ ᴠɪᴅᴇᴏᴄʜᴀᴛ ᴀɴᴅ ᴍᴏᴠᴇs ᴛᴏ ᴛʜᴇ ɴᴇxᴛ sᴛʀᴇᴀᴍ.",
+            description=f"𝘿𝙖𝙝 𝙜𝙬 𝙨𝙠𝙞𝙥 𝙮𝙖 𝙢𝙚𝙠 𝙨𝙩𝙧𝙚𝙖𝙢 𝙣𝙮𝙖.",
             thumb_url="https://graph.org/file/c535cd1372d231dcbcbf8.jpg",
             input_message_content=InputTextMessageContent("/skip"),
         ),
         InlineQueryResultArticle(
             title="Eɴᴅ",
-            description="ᴇɴᴅ ᴛʜᴇ ᴄᴜʀʀᴇɴᴛ ᴩʟᴀʏɪɴɢ sᴛʀᴇᴀᴍ ᴏɴ ᴠɪᴅᴇᴏᴄʜᴀᴛ.",
+            description="𝘿𝙖𝙝 𝙜𝙬 𝙚𝙣𝙙 𝙮𝙖 𝙢𝙚𝙠 𝙨𝙩𝙧𝙚𝙖𝙢 𝙣𝙮𝙖.",
             thumb_url="https://graph.org/file/c535cd1372d231dcbcbf8.jpg",
             input_message_content=InputTextMessageContent("/end"),
         ),
