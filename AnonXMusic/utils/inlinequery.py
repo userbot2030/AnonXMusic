@@ -30,13 +30,13 @@ answer.extend(
         ),
         InlineQueryResultArticle(
             title="Sʜᴜғғʟᴇ",
-            description="sʜᴜғғʟᴇ ᴛʜᴇ ǫᴜᴇᴜᴇᴅ sᴏɴɢs ɪɴ ᴩʟᴀʏʟɪsᴛ.",
+            description="𝘿𝙖𝙝 𝙜𝙬 𝙎𝙝𝙪𝙛𝙛𝙚𝙡 𝙮𝙖 𝙢𝙚𝙠 𝙨𝙩𝙧𝙚𝙖𝙢 𝙣𝙮𝙖.",
             thumb_url="https://graph.org/file/c535cd1372d231dcbcbf8.jpg",
             input_message_content=InputTextMessageContent("/shuffle"),
         ),
         InlineQueryResultArticle(
             title="Lᴏᴏᴩ",
-            description="ʟᴏᴏᴩ ᴛʜᴇ ᴄᴜʀʀᴇɴᴛ ᴩʟᴀʏɪɴɢ ᴛʀᴀᴄᴋ ᴏɴ ᴠɪᴅᴇᴏᴄʜᴀᴛ.",
+            description="𝘿𝙖𝙝 𝙜𝙬 𝙇𝙤𝙤𝙥 𝙮𝙖 𝙢𝙚𝙠 𝙨𝙩𝙧𝙚𝙖𝙢 𝙣𝙮𝙖.",
             thumb_url="https://graph.org/file/c535cd1372d231dcbcbf8.jpg",
             input_message_content=InputTextMessageContent("/loop 3"),
         ),
