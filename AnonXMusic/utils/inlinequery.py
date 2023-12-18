@@ -6,37 +6,37 @@ answer.extend(
     [
         InlineQueryResultArticle(
             title="Pᴀᴜsᴇ",
-            description=f"𝘿𝙖𝙝 𝙜𝙬 𝙟𝙚𝙙𝙖 𝙮𝙖 𝙢𝙚𝙠 𝙨𝙩𝙧𝙚𝙖𝙢 𝙣𝙮𝙖.",
+            description=f"ᴅᴀʜ ɢᴡ ᴊᴇᴅᴀ ʏᴀ ᴍᴇᴋ sᴛʀᴇᴀᴍ ɴʏᴀ.",
             thumb_url="https://graph.org/file/c535cd1372d231dcbcbf8.jpg",
             input_message_content=InputTextMessageContent("/pause"),
         ),
         InlineQueryResultArticle(
             title="Rᴇsᴜᴍᴇ",
-            description=f"𝘿𝙖𝙝 𝙜𝙬 𝙍𝙚𝙨𝙪𝙢𝙚 𝙮𝙖 𝙢𝙚𝙠 𝙨𝙩𝙧𝙚𝙖𝙢 𝙣𝙮𝙖.",
+            description=f"ᴅᴀʜ ɢᴡ ʀᴇsᴜᴍᴇ ʏᴀ ᴍᴇᴋ sᴛʀᴇᴀᴍ ɴʏᴀ.",
             thumb_url="https://graph.org/file/c535cd1372d231dcbcbf8.jpg",
             input_message_content=InputTextMessageContent("/resume"),
         ),
         InlineQueryResultArticle(
             title="Sᴋɪᴩ",
-            description=f"𝘿𝙖𝙝 𝙜𝙬 𝙨𝙠𝙞𝙥 𝙮𝙖 𝙢𝙚𝙠 𝙨𝙩𝙧𝙚𝙖𝙢 𝙣𝙮𝙖.",
+            description=f"ᴅᴀʜ ɢᴡ sᴋɪᴘ ʏᴀ ᴍᴇᴋ sᴛʀᴇᴀᴍ ɴʏᴀ.",
             thumb_url="https://graph.org/file/c535cd1372d231dcbcbf8.jpg",
             input_message_content=InputTextMessageContent("/skip"),
         ),
         InlineQueryResultArticle(
             title="Eɴᴅ",
-            description="𝘿𝙖𝙝 𝙜𝙬 𝙚𝙣𝙙 𝙮𝙖 𝙢𝙚𝙠 𝙨𝙩𝙧𝙚𝙖𝙢 𝙣𝙮𝙖.",
+            description="ᴅᴀʜ ɢᴡ ᴇɴᴅ ʏᴀ ᴍᴇᴋ sᴛʀᴇᴀᴍ ɴʏᴀ.",
             thumb_url="https://graph.org/file/c535cd1372d231dcbcbf8.jpg",
             input_message_content=InputTextMessageContent("/end"),
         ),
         InlineQueryResultArticle(
             title="Sʜᴜғғʟᴇ",
-            description="𝘿𝙖𝙝 𝙜𝙬 𝙎𝙝𝙪𝙛𝙛𝙚𝙡 𝙮𝙖 𝙢𝙚𝙠 𝙨𝙩𝙧𝙚𝙖𝙢 𝙣𝙮𝙖.",
+            description="ᴅᴀʜ ɢᴡ sᴜғғʟᴇ ʏᴀ ᴍᴇᴋ sᴛʀᴇᴀᴍ ɴʏᴀ.",
             thumb_url="https://graph.org/file/c535cd1372d231dcbcbf8.jpg",
             input_message_content=InputTextMessageContent("/shuffle"),
         ),
         InlineQueryResultArticle(
             title="Lᴏᴏᴩ",
-            description="𝘿𝙖𝙝 𝙜𝙬 𝙇𝙤𝙤𝙥 𝙮𝙖 𝙢𝙚𝙠 𝙨𝙩𝙧𝙚𝙖𝙢 𝙣𝙮𝙖.",
+            description="ᴅᴀʜ ɢᴡ ʟᴏᴏᴘ ʏᴀ ᴍᴇᴋ sᴛʀᴇᴀᴍ ɴʏᴀ.",
             thumb_url="https://graph.org/file/c535cd1372d231dcbcbf8.jpg",
             input_message_content=InputTextMessageContent("/loop 3"),
         ),
