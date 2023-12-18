@@ -32,26 +32,22 @@ def stream_markup_timer(_, chat_id, played, dur):
     duration_sec = time_to_seconds(dur)
     percentage = (played_sec / duration_sec) * 100
     umm = math.floor(percentage)
-    if 0 < umm <= 10:
-        bar = "ʙᴇʀʟɪɴ—————————"
-    elif 10 < umm < 20:
-        bar = "—ʙᴇʀʟɪɴ————————"
+    if 0 < umm < 10:
+        bar = "ʙᴇʀʟɪɴ————————"
+    elif 10 <= umm < 20:
+        bar = "—ʙᴇʀʟɪɴ———————"
     elif 20 <= umm < 30:
-        bar = "——ʙᴇʀʟɪɴ———————"
+        bar = "——ʙᴇʀʟɪɴ——————"
     elif 30 <= umm < 40:
-        bar = "———ʙᴇʀʟɪɴ——————"
+        bar = "———ʙᴇʀʟɪɴ—————"
     elif 40 <= umm < 50:
-        bar = "————ʙᴇʀʟɪɴ—————"
+        bar = "————ʙᴇʀʟɪɴ————"
     elif 50 <= umm < 60:
-        bar = "—————ʙᴇʀʟɪɴ————"
-    elif 60 <= umm < 70:
-        bar = "——————ʙᴇʀʟɪɴ———"
-    elif 70 <= umm < 80:
-        bar = "———————ʙᴇʀʟɪɴ——"
+        bar = "—————ʙᴇʀʟɪɴ———"
+    elif 60 <= umm < 80:
+        bar = "——————ʙᴇʀʟɪɴ——"
     elif 80 <= umm < 95:
-        bar = "————————ʙᴇʀʟɪɴ—"
-    else:
-        bar = "—————————ʙᴇʀʟɪɴ"
+        bar = "———————ʙᴇʀʟɪɴ—"
     buttons = [
         [
             InlineKeyboardButton(
@@ -60,8 +56,8 @@ def stream_markup_timer(_, chat_id, played, dur):
             )
         ],
         [
-            InlineKeyboardButton(text="✫ ᴅᴇᴠᴇʟᴏᴘᴇʀ ✫", url=f"https://t.me/Berlinmidnight"),
-            InlineKeyboardButton(text="✫ ᴄʜᴀɴɴᴇʟ ✫", url=f"https://t.me/Gabutanberlin"),
+            InlineKeyboardButton(text="✫ ᴅᴇᴠ ✫", url=f"https://t.me/Berlinmidnight"),
+            InlineKeyboardButton(text="✫ ᴄʜ ✫", url=f"https://t.me/Gabutanberlin"),
         ],
         [
             InlineKeyboardButton(text= "✫ ᴀsᴜᴘᴀɴ ✫", url=f"https://t.me/Asupan_viral18plus"),
@@ -73,8 +69,8 @@ def stream_markup_timer(_, chat_id, played, dur):
 def stream_markup(_, chat_id):
     buttons = [
         [
-            InlineKeyboardButton(text="✫ ᴅᴇᴠᴇʟᴏᴘᴇʀ ✫", url=f"https://t.me/Berlinmidnight"),
-            InlineKeyboardButton(text="✫ ᴄʜᴀɴɴᴇʟ ✫", url=f"https://t.me/Gabutanberlin"),
+            InlineKeyboardButton(text="✫ ᴅᴇᴠ ✫", url=f"https://t.me/Berlinmidnight"),
+            InlineKeyboardButton(text="✫ ᴄʜ ✫", url=f"https://t.me/Gabutanberlin"),
         ],
         [
             InlineKeyboardButton(text= "✫ ᴀsᴜᴘᴀɴ ✫", url=f"https://t.me/Asupan_viral18plus"),
