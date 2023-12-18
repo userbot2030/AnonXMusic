@@ -60,11 +60,11 @@ def stream_markup_timer(_, chat_id, played, dur):
             )
         ],
         [
-            InlineKeyboardButton(text="✫ sᴛᴏᴘ ✫", callback_data=f"ADMIN Stop|{chat_id}"),
-            InlineKeyboardButton(text="✫ sᴋɪᴘ ✫", callback_data=f"ADMIN Skip|{chat_id}"),
+            InlineKeyboardButton(text="✫ ᴅᴇᴠᴇʟᴏᴘᴇʀ ✫", url=f"https://t.me/Berlinmidnight"),
+            InlineKeyboardButton(text="✫ ᴄʜᴀɴɴᴇʟ ✫", url=f"https://t.me/Gabutanberlin"),
         ],
         [
-            InlineKeyboardButton(text= "✫ ᴀsᴜᴘᴀɴ ✫", url=f"https://t.me/Asupan_bokepviral"),
+            InlineKeyboardButton(text= "✫ ᴀsᴜᴘᴀɴ ✫", url=f"https://t.me/Asupan_viral18plus"),
         ],
     ]
     return buttons
@@ -73,11 +73,11 @@ def stream_markup_timer(_, chat_id, played, dur):
 def stream_markup(_, chat_id):
     buttons = [
         [
-            InlineKeyboardButton(text="✫ sᴛᴏᴘ ✫", callback_data=f"ADMIN Stop|{chat_id}"),
-            InlineKeyboardButton(text="✫ sᴋɪᴘ ✫", callback_data=f"ADMIN Skip|{chat_id}"),
+            InlineKeyboardButton(text="✫ ᴅᴇᴠᴇʟᴏᴘᴇʀ ✫", url=f"https://t.me/Berlinmidnight"),
+            InlineKeyboardButton(text="✫ ᴄʜᴀɴɴᴇʟ ✫", url=f"https://t.me/Gabutanberlin"),
         ],
         [
-            InlineKeyboardButton(text= "✫ ᴀsᴜᴘᴀɴ ✫", url=f"https://t.me/Asupan_bokepviral"),
+            InlineKeyboardButton(text= "✫ ᴀsᴜᴘᴀɴ ✫", url=f"https://t.me/Asupan_viral18plus"),
         ],
     ]
     return buttons
