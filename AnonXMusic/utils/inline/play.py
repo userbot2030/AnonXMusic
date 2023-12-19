@@ -57,7 +57,7 @@ def stream_markup_timer(_, chat_id, played, dur):
         ],
         [
             InlineKeyboardButton(text="✫ ᴅᴇᴠ ✫", url=f"https://t.me/palngentod"),
-            InlineKeyboardButton(text="✫ ᴄʜ ✫", url=f"https://t.me/Gabutanberlin"),
+            InlineKeyboardButton(text="✫ ᴄʜ ✫", url=f"http://t.me/onlyesaw"),
         ],
         [
             InlineKeyboardButton(text= "✫ ᴀsᴜᴘᴀɴ ✫", url=f"https://t.me/Asupan_viral18plus"),
@@ -70,7 +70,7 @@ def stream_markup(_, chat_id):
     buttons = [
         [
             InlineKeyboardButton(text="✫ ᴅᴇᴠ ✫", url=f"https://t.me/palngentod"),
-            InlineKeyboardButton(text="✫ ᴄʜ ✫", url=f"https://t.me/Gabutanberlin"),
+            InlineKeyboardButton(text="✫ ᴄʜ ✫", url=f"http://t.me/onlyesaw"),
         ],
         [
             InlineKeyboardButton(text= "✫ ᴀsᴜᴘᴀɴ ✫", url=f"https://t.me/Asupan_viral18plus"),
