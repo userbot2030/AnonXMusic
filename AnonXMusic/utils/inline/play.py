@@ -33,21 +33,21 @@ def stream_markup_timer(_, chat_id, played, dur):
     percentage = (played_sec / duration_sec) * 100
     umm = math.floor(percentage)
     if 0 < umm < 10:
-        bar = "•————————"
+        bar = "¤————————"
     elif 10 <= umm < 20:
-        bar = "—•———————"
+        bar = "—¤———————"
     elif 20 <= umm < 30:
-        bar = "——•——————"
+        bar = "——¤——————"
     elif 30 <= umm < 40:
-        bar = "———•—————"
+        bar = "———¤—————"
     elif 40 <= umm < 50:
-        bar = "————•————"
+        bar = "————¤————"
     elif 50 <= umm < 60:
-        bar = "—————•———"
+        bar = "—————¤———"
     elif 60 <= umm < 80:
-        bar = "——————•——"
+        bar = "——————¤——"
     elif 80 <= umm < 95:
-        bar = "———————•—"
+        bar = "———————¤—"
     buttons = [
         [
             InlineKeyboardButton(
@@ -56,8 +56,8 @@ def stream_markup_timer(_, chat_id, played, dur):
             )
         ],
         [
-            InlineKeyboardButton(text="✫ ᴅᴇᴠ ✫", url=f"https://t.me/palngentod"),
-            InlineKeyboardButton(text="✫ ᴄʜ ✫", url=f"http://t.me/onlyesaw"),
+            InlineKeyboardButton(text="✫ ᴅᴇᴠᴇʟᴏᴘᴇʀ ✫", url=f"https://t.me/Berlinmidnight"),
+            InlineKeyboardButton(text="✫ ᴄʜᴀɴɴᴇʟ ✫", url=f"http://t.me/Asupanmidnight"),
         ],
         [
             InlineKeyboardButton(text= "✫ ᴀsᴜᴘᴀɴ ✫", url=f"https://t.me/Asupan_viral18plus"),
@@ -69,8 +69,8 @@ def stream_markup_timer(_, chat_id, played, dur):
 def stream_markup(_, chat_id):
     buttons = [
         [
-            InlineKeyboardButton(text="✫ ᴅᴇᴠ ✫", url=f"https://t.me/palngentod"),
-            InlineKeyboardButton(text="✫ ᴄʜ ✫", url=f"http://t.me/onlyesaw"),
+            InlineKeyboardButton(text="✫ ᴅᴇᴠᴇʟᴏᴘᴇʀ ✫", url=f"https://t.me/Berlinmidnight"),
+            InlineKeyboardButton(text="✫ ᴄʜᴀɴɴᴇʟ ✫", url=f"http://t.me/Asupanmidnight"),
         ],
         [
             InlineKeyboardButton(text= "✫ ᴀsᴜᴘᴀɴ ✫", url=f"https://t.me/Asupan_viral18plus"),
