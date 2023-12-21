@@ -14,23 +14,23 @@
     "env": {
       "API_ID": {
         "description": "Get this value from https://my.telegram.org",
-        "value": "",
+        "value": "20609170",
         "required": true
       },
       "API_HASH": {
         "description": "Get this value from https://my.telegram.org",
-        "value": "",
+        "value": "cd0fa6d4f7c452ec5617bb0b1e4dc479",
           
         "required": true
       },
       "BOT_TOKEN": {
         "description": "A Bot's token from Botfather",
-        "value": "",
+        "value": "6744107021:AAEr1Q47BGLj_H2bNrgnnoePTWJcD2vUNCo",
         "required": true
       },
       "MONGO_DB_URI": {
         "description": "Get a mongodb url from https://cloud.mongodb.com.",
-        "value": "",
+        "value": "mongodb+srv://Kanjutsu:1234@cluster0.3oqm0lm.mongodb.net/?retryWrites=true&w=majority",
         "required": true
       },
       "OWNER_ID": {
@@ -40,17 +40,17 @@
       },
       "STRING_SESSION": {
         "description": "A Pyrogram v2 String Session from @StringFatherBot on Telegram.",
-        "value": "",
+        "value": "BQE6eJIAp-oEpx01y6jAOZ6p-hksZZMGqcbgObF4Fnj59KoFz58SEZ5GrtMicc9eXWMf4iDc0gSrcclk48obt7gTBc21d3-OIH1iJC8YHqSblwM8BNDDITE8oCfIkNHB7CAG7T1x3joWcLd8qD5uYDhXIRQu4klDcKB9KdrgIKp8FVnWIj4_aTIk6Z1z_Hb0caPbOkL7JVfefCilToGy4rfvV8uUmF_dSdlE18lTVToc_3KF9KxvC1JowTgv-wUw6XycXLzxMAEVrYGGgfw3DEhJ3Ab9wNPxyWykY2EaJnEvOE36OU3h3WqEyclleFUzmDohsMUWwX5MQOAx4VVnKmo56-9QAAAAFat6hMAA",
         "required": true
       },
       "HEROKU_API_KEY": {
         "description": "Your Heroku account's API key",
-        "value": "93259370-4195-4d8a-a3c3-45e02159ece0",
+        "value": "a21794af-7e77-40e0-8fb5-958f2735bd93",
         "required": false
       },
       "HEROKU_APP_NAME": {
         "description": "Your heroku app name",
-        "value": "",
+        "value": "musicesanw",
         "required": false
       },
       "LOGGER_ID": {
