@@ -1,7 +1,7 @@
 {
-    "name": "ꝛʌʏʌ ꝛσʙσᴛ",
+    "name": "ʙᴇʀʟɪɴ ꭙ͢ ꝛσʙσᴛ",
     "description": "A Telegram Music Player Bot, written in Python with Pyrogram and Py-Tgcalls.",
-    "logo": "https://graph.org/file/0a846c1065661586a8c4b.jpg",
+    "logo": "https://graph.org/file/5d141cc6ee9d131830dea.jpg",
     "keywords": [
     "python3",
     "telegram",
@@ -14,33 +14,33 @@
     "env": {
       "API_ID": {
         "description": "Get this value from https://my.telegram.org",
-        "value": "21574029",
+        "value": "",
         "required": true
       },
       "API_HASH": {
         "description": "Get this value from https://my.telegram.org",
-        "value": "0b95d32bb634d1eb06408c6f67268a41",
+        "value": "",
           
         "required": true
       },
       "BOT_TOKEN": {
         "description": "A Bot's token from Botfather",
-        "value": "6744107021:AAEr1Q47BGLj_H2bNrgnnoePTWJcD2vUNCo",
+        "value": "",
         "required": true
       },
       "MONGO_DB_URI": {
         "description": "Get a mongodb url from https://cloud.mongodb.com.",
-        "value": "mongodb+srv://Selvia:1234@cluster0.e1immmg.mongodb.net/?retryWrites=true&w=majority",
+        "value": "mongodb+srv://kansya:1234@cluster0.pz6wrfk.mongodb.net/?retryWrites=true&w=majority",
         "required": true
       },
       "OWNER_ID": {
         "description": "The user id of user whom you would like to add as OWNER.",
-        "value": "6185020582",
+        "value": "5872109995",
         "required": true
       },
       "STRING_SESSION": {
         "description": "A Pyrogram v2 String Session from @StringFatherBot on Telegram.",
-        "value": "BQE6eJIAp-oEpx01y6jAOZ6p-hksZZMGqcbgObF4Fnj59KoFz58SEZ5GrtMicc9eXWMf4iDc0gSrcclk48obt7gTBc21d3-OIH1iJC8YHqSblwM8BNDDITE8oCfIkNHB7CAG7T1x3joWcLd8qD5uYDhXIRQu4klDcKB9KdrgIKp8FVnWIj4_aTIk6Z1z_Hb0caPbOkL7JVfefCilToGy4rfvV8uUmF_dSdlE18lTVToc_3KF9KxvC1JowTgv-wUw6XycXLzxMAEVrYGGgfw3DEhJ3Ab9wNPxyWykY2EaJnEvOE36OU3h3WqEyclleFUzmDohsMUWwX5MQOAx4VVnKmo56-9QAAAAFat6hMAA",
+        "value": "",
         "required": true
       },
       "HEROKU_API_KEY": {
