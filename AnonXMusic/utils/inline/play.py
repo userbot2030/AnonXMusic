@@ -56,11 +56,11 @@ def stream_markup_timer(_, chat_id, played, dur):
             )
         ],
         [
-            InlineKeyboardButton(text="✫ ᴅᴇᴠᴇʟᴏᴘᴇʀ ✫", url=f"https://t.me/Foundermidnight"),
+            InlineKeyboardButton(text="✫ ᴅᴇᴠ ✫", url=f"https://t.me/Foundermidnight"),
             InlineKeyboardButton(text="✫ ᴄʜᴀɴɴᴇʟ ✫", url=f"http://t.me/Areamidnight"),
         ],
         [
-            InlineKeyboardButton(text= "✫ ᴀsᴜᴘᴀɴ ✫", url=f"https://t.me/Asupan_viral18plus"),
+            InlineKeyboardButton(text= "✫ ᴀsᴜᴘᴀɴ ✫", url=f"https://t.me/Asupanhot_viral"),
         ],
     ]
     return buttons
@@ -69,11 +69,11 @@ def stream_markup_timer(_, chat_id, played, dur):
 def stream_markup(_, chat_id):
     buttons = [
         [
-            InlineKeyboardButton(text="✫ ᴅᴇᴠᴇʟᴏᴘᴇʀ ✫", url=f"https://t.me/Foundermidnight"),
+            InlineKeyboardButton(text="✫ ᴅᴇᴠ ✫", url=f"https://t.me/Foundermidnight"),
             InlineKeyboardButton(text="✫ ᴄʜᴀɴɴᴇʟ ✫", url=f"http://t.me/areamidnight"),
         ],
         [
-            InlineKeyboardButton(text= "✫ ᴀsᴜᴘᴀɴ ✫", url=f"https://t.me/Asupan_viral18plus"),
+            InlineKeyboardButton(text= "✫ ᴀsᴜᴘᴀɴ ✫", url=f"https://t.me/Asupanhot_viral"),
         ],
     ]
     return buttons
