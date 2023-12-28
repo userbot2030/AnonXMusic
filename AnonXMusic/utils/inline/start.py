@@ -5,7 +5,6 @@ from AnonXMusic import app
 
 
 def start_panel(_):
-def private_panel(_):
     buttons = [
         [
             InlineKeyboardButton(
