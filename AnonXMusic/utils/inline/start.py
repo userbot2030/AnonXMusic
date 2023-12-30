@@ -24,14 +24,12 @@ def private_panel(_):
                 url=f"https://t.me/{app.username}?startgroup=true",
             )
         ],
-        [InlineKeyboardButton(text=_["S_B_4"], callback_data="settings_back_helper")],
         [
             InlineKeyboardButton(text=_["S_B_5"], user_id=6024180996),
             InlineKeyboardButton(text=_["S_B_2"], url=f"https://t.me/berlinmusic_support"),
         ],
         [
             InlineKeyboardButton(text=_["S_B_6"], url=f"https://t.me/Asupanhot_viral"),
-            InlineKeyboardButton(text=_["S_B_7"], url=f"https://xnxx.com"),
         ],
     ]
     return buttons
