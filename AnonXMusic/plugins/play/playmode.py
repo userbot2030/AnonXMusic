@@ -25,7 +25,7 @@ async def playmode_(client, message: Message, _):
     if playty == "Everyone":
         Playtype = None
     else:
-        Playtype = True
+        Playtype = none
     buttons = playmode_users_markup(_, Direct, Group, Playtype)
     response = await message.reply_text(
         _["play_22"].format(message.chat.title),
