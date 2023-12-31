@@ -29,11 +29,11 @@ class Anony(Client):
         try:
             await self.send_message(
                 chat_id=config.LOGGER_ID,
-                text=f"<u><b>» {self.mention} ʙᴇʀʟɪɴ sᴛᴀʀᴛᴇᴅ :</b><u>\n\nɪᴅ : <code>{self.id}</code>\nɴᴀᴍᴇ : {self.name}\nᴜsᴇʀɴᴀᴍᴇ : @{self.username}",
+                text=f"<u><b>» {self.mention} ɴᴛ sᴛᴀʀᴛᴇᴅ :</b><u>\n\nɪᴅ : <code>{self.id}</code>\nɴᴀᴍᴇ : {self.name}\nᴜsᴇʀɴᴀᴍᴇ : @{self.username}",
             )
         except (errors.ChannelInvalid, errors.PeerIdInvalid):
             LOGGER(__name__).error(
-                "Berlin gagal acces log group/channel. Lu tambahin dulu gw ke log group/channel lu."
+                "nt gagal acces log group/channel. Lu tambahin dulu gw ke log group/channel lu."
             )
             exit()
         except Exception as ex:
@@ -48,7 +48,7 @@ class Anony(Client):
                 "Adminin dulu ngentot di log group/channel lu."
             )
             exit()
-        LOGGER(__name__).info(f"Berlin Bot Started as {self.name}")
+        LOGGER(__name__).info(f"nt Bot Started as {self.name}")
 
     async def stop(self):
         await super().stop()
