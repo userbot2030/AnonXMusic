@@ -38,7 +38,7 @@ class Anony(Client):
             exit()
         except Exception as ex:
             LOGGER(__name__).error(
-                f"Berlin gagal acces log group/channel.\n  Reason : {type(ex).__name__}."
+                f"nt gagal acces log group/channel.\n  Reason : {type(ex).__name__}."
             )
             exit()
 
@@ -48,7 +48,7 @@ class Anony(Client):
                 "Adminin dulu ngentot di log group/channel lu."
             )
             exit()
-        LOGGER(__name__).info(f"nt Bot Started as {self.name}")
+        LOGGER(__name__).info(f"ᴀssɪsᴛᴀɴᴛ ᴍᴜsɪᴄ ɴᴛ sᴛᴀʀᴛᴇᴅ ᴀs{self.name}")
 
     async def stop(self):
         await super().stop()
