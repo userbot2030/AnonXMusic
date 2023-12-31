@@ -21,7 +21,7 @@ async def init():
         and not config.STRING4
         and not config.STRING5
     ):
-        LOGGER(__name__).error("Assistant Berlin client variables not defined, exiting...")
+        LOGGER(__name__).error("Assistant nt client variables not defined, exiting...")
         exit()
     await sudo()
     try:
@@ -55,7 +55,7 @@ async def init():
     await idle()
     await app.stop()
     await userbot.stop()
-    LOGGER("BerlinXMusic").info("Stopping Berlin x Music Bot...")
+    LOGGER("BerlinXMusic").info("Stopping nt x Music Bot...")
 
 
 if __name__ == "__main__":
