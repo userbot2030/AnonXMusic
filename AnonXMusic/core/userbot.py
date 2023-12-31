@@ -52,12 +52,12 @@ class Userbot(Client):
             await self.one.start()
             try:
                 await self.one.join_chat("Berlinmusic_support")
-                await self.one.join_chat("Asupanmidnight")
+                await self.one.join_chat("Areamidnight")
             except:
                 pass
             assistants.append(1)
             try:
-                await self.one.send_message(config.LOGGER_ID, "Assistant Berlin Started")
+                await self.one.send_message(config.LOGGER_ID, "Assistant nt Started")
             except:
                 LOGGER(__name__).error(
                     "Assistant Akun 1 Gagal Akses Ke Log groups/channel. Tambahin dulu akun assistant lu ke log groups terus lu adminin mek!"
@@ -73,12 +73,12 @@ class Userbot(Client):
             await self.two.start()
             try:
                 await self.two.join_chat("Berlinmusic_support")
-                await self.two.join_chat("Asupanmidnight")
+                await self.two.join_chat("Areamidnight")
             except:
                 pass
             assistants.append(2)
             try:
-                await self.two.send_message(config.LOGGER_ID, "Assistant Berlin Started")
+                await self.two.send_message(config.LOGGER_ID, "Assistant nt Started")
             except:
                 LOGGER(__name__).error(
                     "Assistant Akun 2 Gagal Akses Ke Log groups/channel. Tambahin dulu akun assistant lu ke log groups terus lu adminin mek!"
@@ -94,12 +94,12 @@ class Userbot(Client):
             await self.three.start()
             try:
                 await self.three.join_chat("Berlinmusic_support")
-                await self.three.join_chat("Asupanmidnight")
+                await self.three.join_chat("Areamidnight")
             except:
                 pass
             assistants.append(3)
             try:
-                await self.three.send_message(config.LOGGER_ID, "Assistant Berlin Started")
+                await self.three.send_message(config.LOGGER_ID, "Assistant nt Started")
             except:
                 LOGGER(__name__).error(
                     "Assistant Akun 3 Gagal Akses Ke Log groups/channel. Tambahin dulu akun assistant lu ke log groups terus lu adminin mek!! "
@@ -115,12 +115,12 @@ class Userbot(Client):
             await self.four.start()
             try:
                 await self.four.join_chat("Berlinmusic_support")
-                await self.four.join_chat("Asupanmidnight")
+                await self.four.join_chat("Areamidnight")
             except:
                 pass
             assistants.append(4)
             try:
-                await self.four.send_message(config.LOGGER_ID, "Assistant Berlin Started")
+                await self.four.send_message(config.LOGGER_ID, "Assistant nt Started")
             except:
                 LOGGER(__name__).error(
                     "Assistant Akun 4 Gagal Akses Ke Log groups/channel. Tambahin dulu akun assistant lu ke log groups terus lu adminin mek!! "
@@ -136,12 +136,12 @@ class Userbot(Client):
             await self.five.start()
             try:
                 await self.five.join_chat("Berlinmusic_support")
-                await self.five.join_chat("Asupanmidnight")
+                await self.five.join_chat("Areamidnight")
             except:
                 pass
             assistants.append(5)
             try:
-                await self.five.send_message(config.LOGGER_ID, "Assistant Berlin Started")
+                await self.five.send_message(config.LOGGER_ID, "Assistant nt Started")
             except:
                 LOGGER(__name__).error(
                     "Assistant Akun 5 Gagal Akses Ke Log groups/channel. Tambahin dulu akun assistant lu ke log groups terus lu adminin mek!! "
