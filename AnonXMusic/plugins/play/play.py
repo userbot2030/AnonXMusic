@@ -25,7 +25,7 @@ from AnonXMusic.utils.stream.stream import stream
 from config import BANNED_USERS, lyrical
 
 
-@app.on_message(
+@AdminActual(
     filters.command(
         [
             "play",
@@ -41,7 +41,7 @@ from config import BANNED_USERS, lyrical
     & filters.group
     & ~BANNED_USERS
 )
-@PlayWrapper
+@AdminActual
 async def play_commnd(
     client,
     message: Message,
