@@ -41,7 +41,7 @@ from config import BANNED_USERS, lyrical
     & filters.group
     & ~BANNED_USERS
 )
-@AdminActual
+@PlayWrapper
 async def play_commnd(
     client,
     message: Message,
