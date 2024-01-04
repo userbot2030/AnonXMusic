@@ -25,7 +25,7 @@ from AnonXMusic.utils.stream.stream import stream
 from config import BANNED_USERS, lyrical
 
 
-@AdminActual(
+@app.on_message(
     filters.command(
         [
             "play",
