@@ -30,11 +30,7 @@ class Anony(Client):
             await self.send_message(
                 chat_id=config.LOGGER_ID,
                 text=f"<u><b>» ɴᴛ ᴍᴜsɪᴄ + ᴍᴀɴᴀɢᴇ ᴀᴄᴛɪᴠᴀᴛᴇᴅ ᴍᴇᴋ! 🔥",
-               [
-                InlineKeyboardButton(text="✫ ᴅᴇᴠᴇʟᴏᴘᴇʀꜱ ✫", url=f"https://t.me/Foundermidnight")
-               ]
-                
-        )
+            )
         except (errors.ChannelInvalid, errors.PeerIdInvalid):
             LOGGER(__name__).error(
                 "nt gagal acces log group/channel. Lu tambahin dulu gw ke log group/channel lu."
