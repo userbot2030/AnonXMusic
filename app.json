@@ -1,7 +1,7 @@
 {
     "name": "ɴᴛ ᴍᴜsɪᴄ ꝛσʙσᴛ",
     "description": "A Telegram Music Player Bot, written in Python with Pyrogram and Py-Tgcalls.",
-    "logo": "https://graph.org/file/b87a43a56db9f6e7e3835.jpg",
+    "logo": "https://graph.org/file/512a624c25fafd6654d64.jpg",
     "keywords": [
     "python3",
     "telegram",
@@ -35,7 +35,7 @@
       },
       "OWNER_ID": {
         "description": "The user id of user whom you would like to add as OWNER.",
-        "value": "6024180996",
+        "value": "6240680769",
         "required": true
       },
       "STRING_SESSION": {
@@ -45,7 +45,7 @@
       },
       "HEROKU_API_KEY": {
         "description": "Your Heroku account's API key",
-        "value": "a21794af-7e77-40e0-8fb5-958f2735bd93",
+        "value": "",
         "required": false
       },
       "HEROKU_APP_NAME": {
