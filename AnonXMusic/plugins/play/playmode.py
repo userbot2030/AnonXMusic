@@ -2,7 +2,7 @@ from pyrogram import filters
 from pyrogram.types import InlineKeyboardMarkup, Message
 
 from AnonXMusic import app
-from AnonXMusic.utils.database import get_playmode, get_playtype, is_nonadmin_chat
+from AnonXMusic.utils.database import get_playmode, get_playtype, is_admin_chat
 from AnonXMusic.utils.decorators import language
 from AnonXMusic.utils.inline.settings import playmode_users_markup
 from config import BANNED_USERS
@@ -17,15 +17,15 @@ async def playmode_(client, message: Message, _):
     else:
         Direct = None
     is_non_admin = await is_nonadmin_chat(message.chat.id)
-    if not is_non_admin:
-        Group = False
+    if not is_admin:
+        Group = True
     else:
         Group = False
     playty = await get_playtype(message.chat.id)
     if playty == "Everyone":
-        Playtype = False
+        Playtype = None
     else:
-        Playtype = False
+        Playtype = None
     buttons = playmode_users_markup(_, Direct, Group, Playtype)
     response = await message.reply_text(
         _["play_22"].format(message.chat.title),
