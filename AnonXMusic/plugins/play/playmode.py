@@ -18,12 +18,12 @@ async def playmode_(client, message: Message, _):
         Direct = None
     is_non_admin = await is_nonadmin_chat(message.chat.id)
     if not is_non_admin:
-        Group = True
+        Group = False
     else:
-        Group = None
+        Group = True
     playty = await get_playtype(message.chat.id)
     if playty == "Everyone":
-        Playtype = None
+        Playtype = False
     else:
         Playtype = True
     buttons = playmode_users_markup(_, Direct, Group, Playtype)
