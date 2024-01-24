@@ -57,7 +57,7 @@ def stream_markup_timer(_, chat_id, played, dur):
         ],
         [
             InlineKeyboardButton(text="✫ ᴅᴇᴠ ✫", url=f"https://t.me/Foundermidnight"),
-            InlineKeyboardButton(text="✫ ᴄʜᴀɴɴᴇʟ ✫", url=f"http://t.me/Areamidnight"),
+            InlineKeyboardButton(text="✫ ᴄʜᴀɴɴᴇʟ ✫", url=f"http://t.me/Ortresxz"),
         ],
         [
             InlineKeyboardButton(text= "✫ ᴅᴏɴᴀsɪ ✫", url=f"https://link.dana.id/qr/2gmos5bu"),
@@ -70,7 +70,7 @@ def stream_markup(_, chat_id):
     buttons = [
         [
             InlineKeyboardButton(text="✫ ᴅᴇᴠ ✫", url=f"https://t.me/Foundermidnight"),
-            InlineKeyboardButton(text="✫ ᴄʜᴀɴɴᴇʟ ✫", url=f"http://t.me/areamidnight"),
+            InlineKeyboardButton(text="✫ ᴄʜᴀɴɴᴇʟ ✫", url=f"http://t.me/Ortresxz"),
         ],
         [
             InlineKeyboardButton(text= "✫ ᴅᴏɴᴀsɪ ✫", url=f"https://link.dana.id/qr/2gmos5bu"),
