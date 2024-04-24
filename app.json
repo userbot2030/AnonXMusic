@@ -1,7 +1,7 @@
 {
-    "name": "ɴᴛ ᴍᴜsɪᴄ ꝛσʙσᴛ",
+    "name": "ᴡɪʟᴅᴀɴ ᴍᴜsɪᴄ ʙσᴛ",
     "description": "A Telegram Music Player Bot, written in Python with Pyrogram and Py-Tgcalls.",
-    "logo": "https://graph.org/file/512a624c25fafd6654d64.jpg",
+    "logo": "https://telegra.ph//file/184d77a1d89187d6c9444.jpg",
     "keywords": [
     "python3",
     "telegram",
@@ -25,17 +25,17 @@
       },
       "BOT_TOKEN": {
         "description": "A Bot's token from Botfather",
-        "value": "",
+        "value": "6647010165:AAEkpnjD2-X54hXZmI7SwO0RFXSi89Uw6cU",
         "required": true
       },
       "MONGO_DB_URI": {
         "description": "Get a mongodb url from https://cloud.mongodb.com.",
-        "value": "mongodb+srv://kansya:1234@cluster0.pz6wrfk.mongodb.net/?retryWrites=true&w=majority",
+        "value": "",
         "required": true
       },
       "OWNER_ID": {
         "description": "The user id of user whom you would like to add as OWNER.",
-        "value": "7054610436",
+        "value": "5779185981",
         "required": true
       },
       "STRING_SESSION": {
@@ -55,7 +55,7 @@
       },
       "LOGGER_ID": {
         "description": "Your Log Group ID, add your bot and promote as an admin with full rights!. Channel ki id mat daal dena bsdk.",
-        "value": "-1002049500040",
+        "value": "--1001969246312",
         "required": true
       }
     },
