@@ -10,7 +10,7 @@ class Anony(Client):
     def __init__(self):
         LOGGER(__name__).info(f"Starting Bot...")
         super().__init__(
-            name="ʙᴇʀʟɪɴ✘ʀᴏʙᴏᴛ",
+            name="ᴡɪʟᴅᴀɴ✘ʀᴏʙᴏᴛ",
             api_id=config.API_ID,
             api_hash=config.API_HASH,
             bot_token=config.BOT_TOKEN,
@@ -29,16 +29,16 @@ class Anony(Client):
         try:
             await self.send_message(
                 chat_id=config.LOGGER_ID,
-                text=f"<u><b>» ɴᴛ ᴍᴜsɪᴄ + ᴍᴀɴᴀɢᴇ ᴀᴄᴛɪᴠᴀᴛᴇᴅ ᴍᴇᴋ! 🔥",
+                text=f"<u><b>» ᴡɪʟᴅᴀɴ ᴍᴜsɪᴄ + ᴍᴀɴᴀɢᴇ ᴀᴄᴛɪᴠᴀᴛᴇᴅ ᴍᴇᴋ! 🔥",
             )
         except (errors.ChannelInvalid, errors.PeerIdInvalid):
             LOGGER(__name__).error(
-                "nt gagal acces log group/channel. Lu tambahin dulu gw ke log group/channel lu."
+                "wildan gagal acces log group/channel. Lu tambahin dulu gw ke log group/channel lu."
             )
             exit()
         except Exception as ex:
             LOGGER(__name__).error(
-                f"nt gagal acces log group/channel.\n  Reason : {type(ex).__name__}."
+                f"wildan gagal acces log group/channel.\n  Reason : {type(ex).__name__}."
             )
             exit()
 
@@ -48,7 +48,7 @@ class Anony(Client):
                 "Adminin dulu ngentot di log group/channel lu."
             )
             exit()
-        LOGGER(__name__).info(f"ᴀssɪsᴛᴀɴᴛ ᴍᴜsɪᴄ ɴᴛ sᴛᴀʀᴛᴇᴅ ᴀs{self.name}")
+        LOGGER(__name__).info(f"ᴀssɪsᴛᴀɴᴛ ᴍᴜsɪᴄ ᴡɪʟᴅᴀɴ sᴛᴀʀᴛᴇᴅ ᴀs{self.name}")
 
     async def stop(self):
         await super().stop()
